@@ -209,7 +209,7 @@ legend {
 .header {
     color: #fff;
     min-height: 130vh;
-    background-image: url(/assets/images/header/bgphoto.png);
+    background-image: url(bgphoto.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -948,7 +948,7 @@ button:focus {
 
     .header {
         min-height: 100vh;
-        background-image: url(/assets/images/header/bgphotoMb.jpg);
+        background-image: url(bgphotoMb.jpg);
         background-color: #252424;
     }
 
