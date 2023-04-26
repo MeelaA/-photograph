@@ -659,12 +659,6 @@ body.lock {
     transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
 }
 
-.wedding-left__img-bg-dots {
-    position: absolute;
-    top: -10%;
-    left: -20%;
-}
-
 .wedding-right__right-content {
     display: -ms-flexbox;
     display: flex;
