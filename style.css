@@ -1108,7 +1108,7 @@ button:focus {
 
     .header {
         min-height: 100vh;
-        background-image: url("bgphotoMb.jpg");
+        background-image: url(bgphotoMb.jpg);
         background-color: #252424;
     }
 
@@ -1157,6 +1157,11 @@ button:focus {
     .modal-video {
         max-width: 800px;
         padding: 2rem;
+    }
+
+    .tabs__item.active {
+        -ms-grid-rows: 155px 46px 165px;
+        grid-template-rows: 155px 46px 165px;
     }
 }
 
@@ -1211,8 +1216,14 @@ button:focus {
 
     .wedding-right__galery-link {
         -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
         align-self: center;
         margin-bottom: 4rem;
+    }
+
+    .tabs__item.active {
+        -ms-grid-rows: 109px 26px 180px;
+        grid-template-rows: 109px 26px 180px;
     }
 }
 
@@ -1276,6 +1287,31 @@ nav {
         max-width: 500px;
         padding: 2rem;
     }
+
+    .tabs__item.active {
+        -ms-grid-rows: 114px 31px 95px;
+        grid-template-rows: 114px 31px 95px;
+        grid-gap: 15px;
+    }
+
+    .tabs__nav-btn {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+
+    .tabs__images-link {
+        height: 45px;
+        padding: 5px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600.98px) {
+    .tabs__item.active {
+        -ms-grid-rows: 97px 20px 95px;
+        grid-template-rows: 97px 20px 95px;
+        grid-gap: 15px;
+    }
 }
 
 @media (max-width: 479.98px) {
@@ -1333,5 +1369,21 @@ nav {
     .modal-video {
         max-width: 320px;
         padding: 2rem;
+    }
+
+    .tabs__item.active {
+        -ms-grid-rows: 60px 19px 60px;
+        grid-template-rows: 60px 19px 60px;
+        grid-gap: 5px;
+    }
+
+    .tabs__nav {
+        font-size: 14px;
+    }
+
+    .tabs__nav-btn {
+        font-size: 2rem;
+        padding: 7px;
+        margin: 17px;
     }
 }
