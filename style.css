@@ -1125,6 +1125,10 @@ button:focus {
   display: flex;
 }
 
+.contacts__feedbacks-btn:hover {
+  transform: translateY(2px);
+}
+
 @media (max-width: 1850px) {
     .sidebar h1 {
         -webkit-writing-mode: vertical-lr;
