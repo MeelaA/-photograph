@@ -1129,6 +1129,78 @@ button:focus {
   transform: translateY(2px);
 }
 
+.footer {
+  padding: 90px 5px;
+  background-color: #2C2625;
+  color: #fff;
+}
+.footer__box {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__info {
+  max-width: 300px;
+}
+.footer__info-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer__logo {
+  padding: 10px 0;
+  transition: all 3s ease-in-out 0s;
+}
+.footer__logo:hover {
+  transform: rotateY(-360deg);
+}
+.footer__logo-description {
+  padding: 10px 0;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+  opacity: 0.8;
+}
+.footer__social {
+  padding: 10px 0;
+}
+.footer__social img {
+  padding: 10px;
+}
+.footer__social img:hover {
+  transform: translateY(2px);
+}
+.footer__title {
+  padding: 10px 0;
+  margin-bottom: 15px;
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #fff;
+}
+.footer__text {
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fff;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in;
+}
+.footer__text:hover {
+  opacity: 1;
+}
+.footer__arrow-up:hover {
+  transform: translateY(2px);
+}
+
 @media (max-width: 1850px) {
     .sidebar h1 {
         -webkit-writing-mode: vertical-lr;
