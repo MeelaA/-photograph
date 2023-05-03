@@ -1091,6 +1091,10 @@ button:focus {
     .food__img {
         margin-right: -25px;
     }
+    
+    .newpage {
+		margin: 100px auto 100px;
+	}
 }
 
 @media (max-width: 1160px) {
@@ -1221,6 +1225,12 @@ button:focus {
         -ms-grid-rows: 109px 26px 180px;
         grid-template-rows: 109px 26px 180px;
     }
+    
+    .newpage {
+		max-width: 500px;
+		flex-wrap: wrap;
+		gap: 10px;
+	}
 }
 
 @media (max-width: 767.98px) {
