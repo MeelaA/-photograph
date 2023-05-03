@@ -938,6 +938,7 @@ button:focus {
 }
 
 .tabs__nav-btn:hover {
+	color: #fff;
     background-color: #b51532;
 }
 
