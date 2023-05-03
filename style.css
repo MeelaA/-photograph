@@ -921,12 +921,14 @@ button:focus {
 }
 
 .tabs__nav {
+    display: flex;
+    justify-content: center;
     max-width: 606px;
     margin: 25px auto;
 }
 
 .tabs__nav-btn {
-    display: inline-block;
+    flex: 1, 1, auto;
     font-family: "Prompt", sans-serif;
     padding: 1em 1.8em;
     font-weight: 500;
