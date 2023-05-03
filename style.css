@@ -934,7 +934,6 @@ button:focus {
     font-weight: 500;
     font-size: 1.8rem;
     box-shadow: 0px 6px 23px rgba(31, 39, 67, 0.2);
-    border-radius: 0.3em;
     transition: all 0.3s linear;
 }
 
