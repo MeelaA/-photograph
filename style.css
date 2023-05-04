@@ -1130,6 +1130,7 @@ button:focus {
 }
 
 .footer {
+  position: relative;
   padding: 90px 5px;
   background-color: #2C2625;
   color: #fff;
@@ -1197,6 +1198,12 @@ button:focus {
 .footer__text:hover {
   opacity: 1;
 }
+
+.footer__arrow-up {
+	position: absolute;
+	right: 5%;
+	bottom: 10%;
+}
 .footer__arrow-up:hover {
   transform: translateY(2px);
 }
@@ -1224,19 +1231,12 @@ button:focus {
     }
     
     .newpage {
-		margin: 100px auto 100px;
-	}
-  .footer {
-    position: relative;
-  }
+	margin: 100px auto 100px;
+    }
+	
   .footer__info {
     max-width: 300px;
     padding: 0 20px;
-  }
-  .footer__arrow-up a {
-    position: absolute;
-    right: 5%;
-    bottom: 10%;
   }
 }
 
